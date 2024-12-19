@@ -19,15 +19,17 @@ Date of finished:
 Применяем созданный манифест для создания реплик.    
 ![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/2.jpg)    
 Проверяем, что deployment добавлен.   
-![screen]()     
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/3.jpg)     
 Реализуем сервис, через который будут доступны эти "поды".   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/3.jpg)    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/4.jpg)    
 Применяем написанный манифест.   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/4.jpg)   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/5.jpg)   
 Для доступа к контейнеру через веб браузер пробрасываем порты. Используется команда minikube kubectl -- port-forward service/front-service 3000:3000.   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/5.jpg)    
-С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода, проверяем логи контейнеров.   
 ![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/6.jpg)   
+Подключаемся к контейнерам через веб-браузер.    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/7.jpg)   
+С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода, проверяем логи контейнеров.   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/8.jpg)   
 Схема организации контейнеров и сервисов:    
 ![screen]()      
 **Результаты лабораторной работы:**         
