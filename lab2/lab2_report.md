@@ -17,17 +17,17 @@ Date of finished:
 Далее создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
 ![screen]()    
 Применяем созданный манифест для создания реплик.    
-![screen]()    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/1.jpg)    
 Проверяем, что deployment добавлен.   
 ![screen]()     
 Реализуем сервис, через который будут доступны эти "поды".   
-![screen]()    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/2.jpg)    
 Применяем написанный манифест.   
-![screen]()   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/3.jpg)   
 Для доступа к контейнеру через веб браузер пробрасываем порты. Используется команда minikube kubectl -- port-forward service/front-service 3000:3000.   
-![screen]()    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/4.jpg)    
 С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода, проверяем логи контейнеров.   
-![screen]()   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/5.jpg)   
 Схема организации контейнеров и сервисов:    
 ![screen]()      
 **Результаты лабораторной работы:**         
