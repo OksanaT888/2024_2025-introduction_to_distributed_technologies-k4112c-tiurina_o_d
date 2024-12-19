@@ -15,7 +15,9 @@ Date of finished:
 **Ход работы**     
 Скачиваем образ ifilyaninitmo/itdt-contained-frontend:master с помощью команды docker pull ifilyaninitmo/itdt-contained-frontend:master и создаем контейнер на основе скаченного образа. Далее запускаем Minikube, используя команду minikube start.   
 Далее создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
-
+![screen]()    
+Применяем созданный манифест для создания реплик. 
+![screen]()    
 
 
 
