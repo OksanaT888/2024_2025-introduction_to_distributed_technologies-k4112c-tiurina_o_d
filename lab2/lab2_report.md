@@ -15,19 +15,19 @@ Date of finished:
 **Ход работы**     
 Скачиваем образ ifilyaninitmo/itdt-contained-frontend:master с помощью команды docker pull ifilyaninitmo/itdt-contained-frontend:master и создаем контейнер на основе скаченного образа. Далее запускаем Minikube, используя команду minikube start.   
 Далее создаем deployment с 2 репликами контейнера ifilyaninitmo/itdt-contained-frontend:master и передаем переменные в эти реплики: REACT_APP_USERNAME, REACT_APP_COMPANY_NAME.   
-![screen]()    
-Применяем созданный манифест для создания реплик.    
 ![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/1.jpg)    
+Применяем созданный манифест для создания реплик.    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/2.jpg)    
 Проверяем, что deployment добавлен.   
 ![screen]()     
 Реализуем сервис, через который будут доступны эти "поды".   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/2.jpg)    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/3.jpg)    
 Применяем написанный манифест.   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/3.jpg)   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/4.jpg)   
 Для доступа к контейнеру через веб браузер пробрасываем порты. Используется команда minikube kubectl -- port-forward service/front-service 3000:3000.   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/4.jpg)    
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/5.jpg)    
 С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода, проверяем логи контейнеров.   
-![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/5.jpg)   
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/6.jpg)   
 Схема организации контейнеров и сервисов:    
 ![screen]()      
 **Результаты лабораторной работы:**         
