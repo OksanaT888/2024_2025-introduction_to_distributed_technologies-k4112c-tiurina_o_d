@@ -30,7 +30,7 @@ Date of finished:
 Осуществлен успешный вход.    
 ![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab1/picture/7.jpg)    
 Схема организации контейнеров и сервисов:    
-![screen]()     
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab1/picture/8.jpg)      
 **Результаты данной работы:**         
 Файл с разработанным манифестом для развертывания "пода" с расширением .yaml.      
 Схема организации контейеров и сервисов, нарисованная в draw.io.      
