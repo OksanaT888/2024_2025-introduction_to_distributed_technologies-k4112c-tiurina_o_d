@@ -31,7 +31,7 @@ Date of finished:
 С помощью команды minikube kubectl get pods определяем, что у нас есть 2 пода, проверяем логи контейнеров.   
 ![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/8.jpg)   
 Схема организации контейнеров и сервисов:    
-![screen]()      
+![screen](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab2/picture/9.jpg)      
 **Результаты лабораторной работы:**         
 Файлы с разработанными вами манифестами с расширением .yaml.  
 Схема организации контейеров и сервисов нарисованная вами в draw.io или Visio.  
