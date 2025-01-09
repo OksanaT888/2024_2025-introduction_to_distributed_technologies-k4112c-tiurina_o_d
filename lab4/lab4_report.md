@@ -38,11 +38,9 @@ Date of finished:
 Подключаемся к веб-сайту. (Рис. 13)  
 ![13](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/13.jpg)  
 Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)   
-Screenshot 14  
-Рисунок 14 - Отправка эхо-запросов   
+![14](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/14.jpg)   
 Схема организации контейнеров и сервисов представлена на рисунке 15.   
-Screenshot 15   
-Рисунок 15 - Схема организации контейнеров и сервисов    
+![15](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/15.jpg)   
 
 Результаты лабораторной работы.   
 
