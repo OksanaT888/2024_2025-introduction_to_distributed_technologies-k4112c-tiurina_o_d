@@ -18,7 +18,8 @@ Date of finished:
 ![1](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab3/picture/1.jpg)           
 Screenshot 1      
 Рисунок 1 - Создание манифеста для configMap      
-Применяем созданный манифест с помощью команды minikube kubectl -- apply -f config.map.yaml. (Рис. 2)      
+Применяем созданный манифест с помощью команды minikube kubectl -- apply -f config.map.yaml. (Рис. 2)   
+![2](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab3/picture/2.jpg)  
 Screenshot 2      
 Рисунок 2 - Применение созданного манифеста        
 Проверяем, что манифест применен. (Рис. 3)  
