@@ -17,47 +17,36 @@ Date of finished:
 При запуске minikube устанавливаем плагин CNI=calico и режим работы Multi-Node Clusters одновеременно, в рамках данной лабораторной работы необходимо развернуть 2 ноды. (Рис. 1)      
 ![1](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/1.jpg)    
 Проверяем работу CNI плагина Calico и количество нод. (Рис. 2, 3)       
-Screenshot 2     
-Рисунок 2 - Проверка создания нод
-Screenshot 3
-Рисунок 3 - Проверка работы CNI Calico
-Для проверки режима IPAM для запущеных ранее нод указываем label. (Рис. 4)
-Screenshot 4
-Рисунок 4 - Проверка режима IPAM
-После этого разрабатываем манифест IPPool. (Рис. 5)
-Screenshot 5
-Рисунок 5 - Разработка манифеста IPPool
-Применяем написанный манифест. (Рис. 6)
-Screenshot 6
-Рисунок 6 - Применение написанного манифеста
-Удаляем IPPool по умолчанию. (Рис. 7)
-Screenshot 7
-Рисунок 7 - Удаление IPPool
-На рисунке 8 видно, что IPPool'ы корректно созданы.
-Screenshot 8
-Рисунок 8 - Корретное создание IPPool Создаем манифест Deployment и Service. (Рис. 9, 10)
-Screenshot 9
-Рисунок 9 - Создание манифеста Deployment
-Screenshot 10
-Рисунок 10 - Создание манифеста Service
-Далее применяем написанные манифесты и производим их проверку. (Рис. 11)
-Screenshot 11
-Рисунок 11 - Применение написанных манифестов и осуществление их проверки
-Осуществляем подключение к контейнерам, пробросив порты. (Рис. 12)
-Screenshot 12
-Рисунок 12 - Проброс портов
-Подключаемся к веб-сайту. (Рис. 13)
-Screenshot 13
-Рисунок 13 - Подключение к веб-сайту
-Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)
-Screenshot 14
-Рисунок 14 - Отправка эхо-запросов
-Схема организации контейнеров и сервисов представлена на рисунке 15.
-Screenshot 15
-Рисунок 15 - Схема организации контейнеров и сервисов
+![2](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/2.jpg)  
+![3](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/3.jpg)  
+Для проверки режима IPAM для запущеных ранее нод указываем label. (Рис. 4)  
+![4](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/4.jpg)  
+После этого разрабатываем манифест IPPool. (Рис. 5)  
+![5](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/5.jpg)  
+Применяем написанный манифест. (Рис. 6)  
+![6](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/6.jpg)  
+Удаляем IPPool по умолчанию. (Рис. 7)   
+![7](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/7.jpg)  
+На рисунке 8 видно, что IPPool'ы корректно созданы.   
+![8](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/8.jpg)  
+![9](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/9.jpg)  
+![10](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/10.jpg)  
+Далее применяем написанные манифесты и производим их проверку. (Рис. 11)  
+![11](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/11.jpg)  
+Осуществляем подключение к контейнерам, пробросив порты. (Рис. 12)  
+![12](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/12.jpg)  
+Подключаемся к веб-сайту. (Рис. 13)  
+Screenshot 13  
+Рисунок 13 - Подключение к веб-сайту   
+Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)   
+Screenshot 14  
+Рисунок 14 - Отправка эхо-запросов   
+Схема организации контейнеров и сервисов представлена на рисунке 15.   
+Screenshot 15   
+Рисунок 15 - Схема организации контейнеров и сервисов    
 
-Результаты лабораторной работы.
+Результаты лабораторной работы.   
 
-Файлы с разработанными манифестами с расширением .yaml.
-Схема организации контейеров и сервисов, нарисованная в draw.io.
-Скриншоты c результатами работы.
+Файлы с разработанными манифестами с расширением .yaml.   
+Схема организации контейеров и сервисов, нарисованная в draw.io.   
+Скриншоты c результатами работы.   
