@@ -36,8 +36,7 @@ Date of finished:
 Осуществляем подключение к контейнерам, пробросив порты. (Рис. 12)  
 ![12](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/12.jpg)  
 Подключаемся к веб-сайту. (Рис. 13)  
-Screenshot 13  
-Рисунок 13 - Подключение к веб-сайту   
+![13](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/13.jpg)  
 Отправляем эхо-запросы, используя команду kubectl exec deployment-977pld6b9-6b67p -- ping 10.244.117.110. (Рис. 14)   
 Screenshot 14  
 Рисунок 14 - Отправка эхо-запросов   
