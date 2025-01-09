@@ -12,13 +12,12 @@ Date of finished:
 Описание.   
 В данной работе необходимо познакомиться с сетями связи в Minikube. Особенность Kubernetes заключается в том, что у него одновременно работают underlay и overlay сети, а управление может быть организованно различными CNI.    
 Цель работы.   
-Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.   
-Ход работы.  
-При запуске minikube устанавливаем плагин CNI=calico и режим работы Multi-Node Clusters одновеременно, в рамках данной лабораторной работы необходимо развернуть 2 ноды. (Рис. 1)   
-Screenshot 1   
-Рисунок 1 - Установка плагина CNI=calico и режима работы Multi-Node Clusters одновеременно  
-Проверяем работу CNI плагина Calico и количество нод. (Рис. 2, 3)    
-Screenshot 2   
+Познакомиться с CNI Calico и функцией IPAM Plugin, изучить особенности работы CNI и CoreDNS.     
+Ход работы.    
+При запуске minikube устанавливаем плагин CNI=calico и режим работы Multi-Node Clusters одновеременно, в рамках данной лабораторной работы необходимо развернуть 2 ноды. (Рис. 1)      
+![1](https://github.com/OksanaT888/2024_2025-introduction_to_distributed_technologies-k4112c-tiurina_o_d/blob/main/lab4/picture/1.jpg)    
+Проверяем работу CNI плагина Calico и количество нод. (Рис. 2, 3)       
+Screenshot 2     
 Рисунок 2 - Проверка создания нод
 Screenshot 3
 Рисунок 3 - Проверка работы CNI Calico
