@@ -5,7 +5,7 @@ Year: 2024/2025
 Group: K4112c  
 Author: Tiurina Oksana Dmitrievna    
 Lab: Lab3   
-Date of create: 07.12.2024   
+Date of create: 19.12.2024   
 Date of finished:   
 **Лабораторная работа №3.**     
 Сертификаты и "секреты" в Minikube, безопасное хранение данных.      
